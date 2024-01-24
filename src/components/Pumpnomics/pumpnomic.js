@@ -20,7 +20,7 @@ const PumpNomic = () => {
                   
                </div>
                </div>
-        
+            
         </div>
      </div>
     </>
