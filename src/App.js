@@ -14,10 +14,13 @@ function App() {
       <Navbar/>
       <HeroMeme/>
       <AboutTale/>
-      <MoonMap/>
-      <TeamAbout/>
-      <PumpInfo/>
       <PumpNomic/>
+      <PumpInfo/>
+      <MoonMap/>
+      
+      
+      
+      <TeamAbout/>
     </div>    
   );
 }
