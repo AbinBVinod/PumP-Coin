@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .pumpnomic-heading h4 {
@@ -11,8 +12,19 @@
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: normal; 
+  
 }
+
+
+.pumpnomic-heading img {
+  width: 135.333px;
+height: 125.35px;
+transform: translate(410px, 50px);
+
+}
+
+
 
 .pumpnomic-heading h1 {
   color: #fff;
@@ -25,9 +37,15 @@
 }
 
 .the-svg-img img {
-  width: 171px;
-  height: 171px;
+  width: 455px;
+height: 456px;
 }
+.the-svg-img {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 
 .token-mi-aligh {
   display: flex;

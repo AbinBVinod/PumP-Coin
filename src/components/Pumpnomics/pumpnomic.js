@@ -1,8 +1,13 @@
 import "./pumpnomic.css";
-import MemeLogo from "./assets/memelogo.png";
+import Tokenall from "./assets/tokenall.png";
 import Cex from "./assets/cex.svg";
 import Info from "./assets/info.svg";
-
+import Treas from "./assets/treas.svg"
+import Pumpd from "./assets/pumpd.svg"
+import Devs from "./assets/devs.svg"
+import KolRo from "./assets/kolround.svg"
+import Publ from "./assets/publ.svg"
+import Rock from "./assets/tokenrock.png"
 
 
 const PumpNomic = () => {
@@ -10,13 +15,13 @@ const PumpNomic = () => {
     <>
       <div>
         <div className="pumpnomic-container">
+          
           <div className="pumpnomic-heading">
-            <h1>Tokenomics</h1>
+            <h1>Tokenomics <img src={Rock} alt="rockimage"/></h1>
           </div>
-
           <div className="token-mi-aligh">
             <div className="the-svg-img">
-              <img src={MemeLogo} alt="the logo middle" /> 
+              <img src={Tokenall} alt="the logo middle" /> 
              
             
             </div>
@@ -59,7 +64,7 @@ const PumpNomic = () => {
                 <div className="Border-line-data">
                   <div className="cex-and-dex">
                     <div className="data-in-aligh">
-                      <img src={Cex} alt="cex & dex" />
+                      <img src={Treas} alt="cex & dex" />
                       <div className="data-text-cex">Treasury </div>
                       <div className="data-in-box">
                         {" "}
@@ -82,7 +87,7 @@ const PumpNomic = () => {
                 <div className="Border-line-data">
                   <div className="cex-and-dex">
                     <div className="data-in-aligh">
-                      <img src={Cex} alt="cex & dex" />
+                      <img src={Pumpd} alt="cex & dex" />
                       <div className="data-text-cex">Pump Drop </div>
                       <div className="data-in-box">
                         {" "}
@@ -105,7 +110,7 @@ const PumpNomic = () => {
                 <div className="Border-line-data">
                   <div className="cex-and-dex">
                     <div className="data-in-aligh">
-                      <img src={Cex} alt="cex & dex" />
+                      <img src={Devs} alt="cex & dex" />
                       <div className="data-text-cex">Devs </div>
                       <div className="data-in-box">
                         {" "}
@@ -128,7 +133,7 @@ const PumpNomic = () => {
                 <div className="Border-line-data">
                   <div className="cex-and-dex">
                     <div className="data-in-aligh">
-                      <img src={Cex} alt="cex & dex" />
+                      <img src={KolRo} alt="cex & dex" />
                       <div className="data-text-cex">KOL Round </div>
                       <div className="data-in-box">
                         {" "}
@@ -152,7 +157,7 @@ const PumpNomic = () => {
                 <div className="Border-line-data">
                   <div className="cex-and-dex">
                     <div className="data-in-aligh">
-                      <img src={Cex} alt="cex & dex" />
+                      <img src={Publ} alt="cex & dex" />
                       <div className="data-text-cex">Public Sale</div>
                       <div className="data-in-box">
                         {" "}

@@ -1,5 +1,10 @@
 import "./pumpinfo.css"
 import Infobox1 from "./assets/infobox1.png"
+import Dog from "./assets/memwithben.png"
+import Frog from "./assets/dreams.png"
+import Pumpit from "./assets/pumpit.png"
+import Burn from "./assets/burn.png"
+
 
 const PumpInfo = () => {
   return(
@@ -20,8 +25,8 @@ const PumpInfo = () => {
                </div>
            </div>
            <div className="pump-box-two">
-               <div className="pump-info-img">
-                    <img src={Infobox1} alt="pump-one"/>
+               <div className="pump-info-dog">
+                    <img src={Dog} alt="pump-dog"/>
                </div>
                <div className="pump-info-box-info">
                 <h1>Memes with Benefits</h1>
@@ -30,7 +35,7 @@ const PumpInfo = () => {
            </div>
            <div className="pump-box-three">
                <div className="pump-info-img">
-                    <img src={Infobox1} alt="pump-one"/>
+                    <img src={Frog} alt="pump-one"/>
                </div>
                <div className="pump-info-box-info">
                 <h1>Decentralized Dreams</h1>
@@ -40,8 +45,8 @@ const PumpInfo = () => {
         </div>
         <div className="down-bento-box-pump"> 
         <div className="pump-box-one-down">
-               <div className="pump-info-img">
-                    <img src={Infobox1} alt="pump-one"/>
+               <div className="pump-info-pumpit">
+                    <img src={Pumpit} alt="pump-one"/>
                </div>
                <div className="pump-info-box-info">
                 <h1>Pump It Together</h1>
@@ -49,8 +54,8 @@ const PumpInfo = () => {
                </div>
            </div>
            <div className="pump-box-two-down">
-               <div className="pump-info-img">
-                    <img src={Infobox1} alt="pump-one"/>
+               <div className="pump-info-burn">
+                    <img src={Burn} alt="pump-one"/>
                </div>
                <div className="pump-info-box-info">
                 <h1>Burn to Earn</h1>

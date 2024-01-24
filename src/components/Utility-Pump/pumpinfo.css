@@ -140,3 +140,43 @@
 
   backdrop-filter: blur(15px);
 }
+
+
+
+.pump-info-dog img {
+  width: 272px;
+  height: 154px;
+  flex-shrink: 0;
+}
+
+.pump-info-dog {
+  display: flex;
+  justify-content: center;
+}
+
+
+.pump-info-pumpit img {
+  width: 252px;
+  height: 143px;
+  margin-bottom: 18px;
+}
+
+.pump-info-pumpit {
+  display: flex;
+  justify-content: center;
+}
+
+
+.pump-info-burn img {
+  width: 272px;
+  height: 154px;
+  flex-shrink: 0;
+}
+
+.pump-info-burn {
+  display: flex;
+  justify-content: center;
+}
+
+
+
