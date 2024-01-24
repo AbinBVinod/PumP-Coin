@@ -55,7 +55,7 @@ const MoonMap = () => {
                 <h1>Ecosystem Expansion</h1>
               </div>
 
-              <div className="phase-discription">
+              <div className="phase-discription-two">
                 <h5>- 11 high end marketing campaigns to attract potential users and investors.</h5>
                 <h5>- Whitepaper developing</h5>
                 <h5>- Launch on Solana</h5>
@@ -83,7 +83,7 @@ const MoonMap = () => {
                 <h1>Global Adoption</h1>
               </div>
 
-              <div className="phase-discription">
+              <div className="phase-discription-three">
                 <h5>- Expanding Pump100x token's global presence.</h5>
                 <h5>- Establishing 200+ localized communities.</h5>
                 <h5>- Partnering with renowned global 100+ KOLs and media to cultivate trust and solidify Pump100x token's standing in the international arena.</h5>

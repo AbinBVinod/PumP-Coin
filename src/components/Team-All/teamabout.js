@@ -11,7 +11,7 @@ const TeamAbout = () => {
       <div>
         <div className="Team-all-container">
           <div className="Team-all-heading">
-            <h1>Meet the<img src={MemeLogo} alt="memo-logo"/>Crew</h1>
+            <h1>Meet the <img src={MemeLogo} alt="memo-logo"/> Crew</h1>
           </div>
 
           <div className="table-one-team-aligh">

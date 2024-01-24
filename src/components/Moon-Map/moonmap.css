@@ -27,7 +27,6 @@
   height: 39px;
   position: relative;
   z-index: 1;
-
 }
 .phase-one h1 {
   color: #fff;
@@ -115,52 +114,89 @@
 }
 
 .phase-four-table {
-    width: 899px;
-height: 155px;
+  width: 899px;
+  height: 155px;
   border-radius: 10px;
   border: 1px solid rgba(58, 58, 58, 0.65);
   background: rgba(153, 153, 153, 0.08);
   margin-top: 327px;
 }
 
-
 .phase-four {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 34px;
-    margin-top: 246px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+  margin-top: 246px;
+}
 
-  .table-heading-four {
-    display: flex;
-    gap: 30px;
-    margin-top: 18px;
-  }
-  
-  .table-heading-four img {
-    transform: translate(-14px, -75px);
-  }
-  
-  .table-heading-four h1 {
-    color: #fff;
-    font-family: "Irish Grover";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
+.table-heading-four {
+  display: flex;
+  gap: 30px;
+  margin-top: 18px;
+}
 
-  .line-border {
-    position: absolute;
-    width: 2px;
-    height: 1180px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.50) 0%, rgba(125, 125, 125, 0.15) 4%, #7D7D7D 53.87%, rgba(125, 125, 125, 0.15) 89%);
+.table-heading-four img {
+  transform: translate(-14px, -75px);
+}
 
-    z-index: -1;
-    transform: translate(23px,-30px);
-  }
+.table-heading-four h1 {
+  color: #fff;
+  font-family: "Irish Grover";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
-  .rockphase1 {
-    position: relative;
-  }
+.line-border {
+  position: absolute;
+  width: 2px;
+  height: 1180px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(125, 125, 125, 0.15) 4%,
+    #7d7d7d 53.87%,
+    rgba(125, 125, 125, 0.15) 89%
+  );
+
+  z-index: -1;
+  transform: translate(23px, -30px);
+}
+
+.rockphase1 {
+  position: relative;
+}
+
+.phase-discription-two {
+  margin-left: 44px;
+  margin-top: 35px;
+  width: 860px;
+}
+
+.phase-discription-two h5 {
+  color: #777;
+  font-family: "Irish Grover";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -29px;
+}
+
+.phase-discription-three {
+  margin-left: 44px;
+  margin-top: 23px;
+  width: 860px;
+}
+
+.phase-discription-three h5 {
+  color: #777;
+  font-family: "Irish Grover";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -29px;
+}
