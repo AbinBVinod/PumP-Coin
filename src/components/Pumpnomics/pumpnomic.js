@@ -17,6 +17,7 @@ const PumpNomic = () => {
                </div>
 
                 <div className="token-details">
+                  chekc
                   
                </div>
                </div>
