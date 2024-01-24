@@ -1,5 +1,5 @@
 import "./pumpnomic.css"
-
+import MemeLogo from "./assets/memelogo.png"
 
 const PumpNomic = () => {
  return (
@@ -7,9 +7,20 @@ const PumpNomic = () => {
      <div>
         <div className="pumpnomic-container">
               <div className="pumpnomic-heading">
-                 <h4>Token</h4>
-                 <h1>Pumpnomics</h1>
+                 <h1>Tokenomics</h1>
+                
               </div>
+
+               <div className="token-mi-aligh">
+               <div className="the-svg-img">
+                 <img src={MemeLogo} alt="the logo middle"/> 
+               </div>
+
+                <div className="token-details">
+                  
+               </div>
+               </div>
+        
         </div>
      </div>
     </>
