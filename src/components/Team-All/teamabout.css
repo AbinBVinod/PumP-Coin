@@ -1,0 +1,274 @@
+.Team-all-container {
+  margin-top: 88px;
+}
+
+.Team-all-heading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Team-all-heading h4 {
+  color: #aee034;
+  text-align: center;
+  font-family: "Irish Grover";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Team-all-heading h1 {
+  color: var(--Cards, #fff);
+  text-align: center;
+  font-family: "Irish Grover";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Team-table-one {
+  width: 1151px;
+  height: 130px;
+
+  border-radius: 10px;
+  border: 1px solid rgba(58, 58, 58, 0.65);
+  background: rgba(153, 153, 153, 0.2);
+  backdrop-filter: blur(15px);
+
+  display: flex;
+  gap: 22px;
+}
+
+.table-one-team-aligh {
+  display: flex;
+  justify-content: center;
+  margin-top: 49px;
+}
+
+.team-one-img {
+  width: 68px;
+  height: 68px;
+  border-radius: 10px;
+}
+
+.image-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 18px;
+  margin-left: 15px;
+}
+
+.text-box {
+  width: 69px;
+  height: 27px;
+  border-radius: 6px;
+  background: rgba(217, 217, 217, 0.1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box h1 {
+  color: var(--Cards, #fff);
+  text-align: center;
+  font-family: "Irish Grover";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.table-one-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.Team-table-data {
+  display: flex;
+  gap: 15px;
+}
+
+.table-one-text h1 {
+  color: #aee034;
+  font-family: "Irish Grover";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 23px;
+}
+
+.table-one-text h3 {
+  color: #fff;
+  font-family: "Irish Grover";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -9px;
+}
+
+.table-one-text p {
+  color: #a3a3a3;
+  font-family: "Irish Grover";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -8px;
+}
+
+.Team-dev-aligh {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  height: 720px;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.5) 39.08%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url(./assets/devteam.png);
+  background-color: lightgray;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.team-dev-box {
+  width: 1151px;
+  height: 104px;
+  border-radius: 10px;
+  border: 1px solid rgba(58, 58, 58, 0.65);
+  background: rgba(153, 153, 153, 0.2);
+  backdrop-filter: blur(15px);
+  display: flex;
+  flex-direction: column;
+}
+
+.box-dev-img img {
+  width: 68px;
+  height: 68px;
+  border-radius: 10px;
+}
+
+.box-team-one-all {
+  display: flex;
+  gap: 15px;
+}
+
+.box-dev-img {
+  margin-top: 18px;
+  margin-left: 15px;
+}
+.box-dev-text {
+  margin-top: 13px;
+}
+
+.box-dev-text h1 {
+  color: #aee034;
+  font-family: "Irish Grover";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.box-dev-text p {
+  color: var(--Cards, #fff);
+  font-family: "Irish Grover";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0px;
+}
+
+.team-box-two-img img {
+  width: 68px;
+  height: 68px;
+  border-radius: 10px;
+  margin-top: 11px;
+}
+
+.team-box-two-all {
+  display: flex;
+  gap: 15px;
+  margin-left: 15px;
+  margin-top: 0px;
+}
+
+.team-box-1-all {
+  display: flex;
+  gap: 67px;
+}
+
+.team-box-two-text h1 {
+  color: #aee034;
+  font-family: "Irish Grover";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.team-box-two-text p {
+  color: var(--Cards, #fff);
+  font-family: "Irish Grover";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.team-dev-box-two {
+  display: flex;
+  gap: 76px;
+}
+
+.team-box-two-img-two img {
+  width: 68px;
+  height: 68px;
+  border-radius: 10px;
+  margin-top: 11px;
+  margin-left: 8px;
+}
+
+.team-box-two-img-three img {
+  width: 68px;
+  height: 68px;
+  border-radius: 10px;
+  margin-top: 11px;
+  margin-left: 8px;
+}
+
+.team-box-two-img-three {
+  margin-left: -22px;
+}
+
+.bottom-tag {
+  display: flex;
+  justify-content: center;
+  margin-top: -37px;
+  color: var(--Cards, #fff);
+  font-family: Aldrich;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.Team-all-heading img {
+  width: 49px;
+  height: 55px;
+}

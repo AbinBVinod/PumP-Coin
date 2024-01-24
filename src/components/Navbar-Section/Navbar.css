@@ -1,0 +1,74 @@
+.navbar-box {
+  display: flex;
+  justify-content: center;
+  gap: 202px;
+  position: absolute; 
+  width: 100%;
+  top: 0; 
+  z-index: 10; 
+  background-color: transparent;
+
+  background: rgba(0, 0, 0, 0.50);
+}
+
+.pump-title {
+  color: #aee034;
+  font-family: Irish Grover;
+  font-size: 33.391px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 156px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 50px;
+  cursor: pointer;
+  transition: 0.2s all; 
+}
+
+.buy-now-link {
+  display: flex;
+  align-items: center;
+}
+
+.buy-now-link h4 {
+  color: #AEE034;
+font-family: "Irish Grover";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 21px;
+}
+
+
+.buy-now-link button {
+  width: 148px;
+height: 44px;
+background: rgba(0, 0, 0, 50);
+border-radius: 8px;
+border: 1px solid #AEE034;
+align-items: center;
+display: flex;
+cursor: pointer;
+transition: 0.2s all; 
+}
+
+.buy-now-link button:active { 
+  transform: scale(0.98); 
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+} 
+.navbar-links h4:active  {
+  transform: scale(0.98); 
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+}
+
+
+.pump-title img {
+  width: 50px;
+height: 48px;
+}

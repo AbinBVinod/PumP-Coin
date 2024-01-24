@@ -1,0 +1,25 @@
+.pumpnomic-heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pumpnomic-heading h4 {
+    color: #AEE034;
+    text-align: center;
+    font-family: "Irish Grover";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pumpnomic-heading h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Irish Grover";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

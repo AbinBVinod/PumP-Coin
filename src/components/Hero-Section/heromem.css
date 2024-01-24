@@ -1,0 +1,105 @@
+.hero-meme-container {
+  position: relative;
+}
+
+.hero-background-image {
+  position: absolute;
+  width: 1544px; 
+  height: 888px;
+  z-index: -1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.50) 1.5%, rgba(0, 0, 0, 0.00) 98.5%), 
+              linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%),
+              inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+  
+
+.hero-section-container {
+  position: relative;
+  display: flex;
+  gap: 117px;
+  justify-content: center;
+  margin-top: 161px;
+  z-index: 1;
+}
+
+.pump-title-hero {
+  color: #aee034;
+  font-family: "Irish Grover";
+  font-size: 146.194px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hero-secton-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hero-secton-data p {
+  color: #fff;
+  text-align: center;
+  font-family: "Irish Grover";
+  font-size: 54.823px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 455.714px;
+}
+
+.hero-secton-data button {
+  width: 148px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background: #aee034;
+}
+
+.buy-now-hero h4 {
+  color: #000;
+  font-family: "Irish Grover";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 19px;
+}
+
+.hero-section-container img {
+  width: 435px;
+  height: 518px;
+  mix-blend-mode: lighten;
+}
+
+.pump-title-hero img {
+  width: 87px;
+height: 83px;
+flex-shrink: 0;
+}
+
+.telegram-social img {
+  width: 70px;
+height: 70px;
+
+}
+
+.twitter-social img {
+  width: 70px;
+  height: 70px;
+}
+
+.social-media-hero {
+  display: flex;
+  padding-top: 28px;
+  gap: 25px;
+}

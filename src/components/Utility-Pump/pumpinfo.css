@@ -1,0 +1,142 @@
+.pump-info-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+  flex-direction: column;
+}
+
+.pump-info-heading h1 {
+  color: var(--Cards, #fff);
+  text-align: center;
+  font-family: "Irish Grover";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pump-box-one-all {
+  display: flex;
+  justify-content: center;
+  gap: 39px;
+}
+
+.pump-box-one {
+  width: 359px;
+  height: 280px;
+  border-radius: 10px;
+  border: 1px solid rgba(58, 58, 58, 0.65);
+  background: linear-gradient(
+    180deg,
+    rgba(83, 255, 0, 0.2) 0%,
+    rgba(153, 153, 153, 0) 100%
+  );
+  backdrop-filter: blur(15px);
+}
+
+.pump-info-img img {
+  width: 151px;
+  height: 154px;
+  flex-shrink: 0;
+}
+
+.pump-info-img {
+  display: flex;
+  justify-content: center;
+}
+
+.pump-info-box-info h1 {
+  color: var(--Cards, #fff);
+  font-family: "Irish Grover";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pump-info-box-info p {
+  color: #777;
+  font-family: "Irish Grover";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pump-info-box-info {
+  margin-left: 23px;
+  margin-top: -25px;
+}
+
+.pump-box-two {
+  width: 359px;
+  height: 280px;
+  border-radius: 10px;
+  border: 1px solid rgba(58, 58, 58, 0.65);
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 143, 0, 0.2) 0%,
+    rgba(153, 153, 153, 0) 100%
+  );
+
+  backdrop-filter: blur(15px);
+}
+
+.pump-box-three {
+  width: 359px;
+  height: 280px;
+  border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(58, 58, 58, 0.65);
+
+  background: linear-gradient(
+    180deg,
+    rgba(188, 255, 0, 0.2) 0%,
+    rgba(153, 153, 153, 0) 100%
+  );
+
+  backdrop-filter: blur(15px);
+}
+
+.pump-bento-boxes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.down-bento-box-pump {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 38px;
+}
+
+.pump-box-one-down {
+  width: 359px;
+  height: 280px;
+  border-radius: 10px;
+  border: 1px solid rgba(58, 58, 58, 0.65);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 251, 206, 0.2) 0%,
+    rgba(153, 153, 153, 0) 100%
+  );
+  backdrop-filter: blur(15px);
+}
+
+.pump-box-two-down {
+  width: 359px;
+  height: 280px;
+  border-radius: 10px;
+  border: 1px solid rgba(58, 58, 58, 0.65);
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 229, 0, 0.2) 0%,
+    rgba(153, 153, 153, 0) 100%
+  );
+
+  backdrop-filter: blur(15px);
+}

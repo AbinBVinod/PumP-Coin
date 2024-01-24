@@ -1,0 +1,83 @@
+.about-us-container {
+  display: flex;
+  justify-content: center;
+  gap: 58px;
+}
+
+.about-us-contant {
+  display: flex;
+  flex-direction: column;
+  margin-left: -772px;
+  margin-top: 202px;
+}
+
+.about-us-contant h4 {
+  display: flex;
+  justify-content: center;
+  color: #aee034;
+  font-family: "Irish Grover";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: -35px;
+  margin-left: -390px;
+}
+.about-us-contant h1 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-family: "Irish Grover";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 424px;
+  margin-bottom: -19px;
+}
+.about-us-contant p {
+  width: 461px;
+  color: #777;
+  font-family: "Irish Grover";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 59px;
+}
+
+.about-us-contant span {
+  color: #fff;
+  font-family: "Irish Grover";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sapcerockimg {
+  display: flex;
+  justify-content: center;
+  transform: translate(-567px, 227px);
+}
+
+.image-for-tale{
+    display: flex;
+    justify-content: center;
+    margin-right: -805px;
+    width: 866px;
+    height: 492px;
+    flex-shrink: 0;
+    margin-top: 295px;
+}
+
+
+.about-us-contant img {
+  width: 68px;
+height: 65px;
+
+}
+
+.about-us-contant h3 {
+  width: 483px;
+}
