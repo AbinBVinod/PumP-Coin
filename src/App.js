@@ -20,7 +20,7 @@ function App() {
       
       
       
-      {/* <TeamAbout/> */}
+      <TeamAbout/>
     </div>    
   );
 }

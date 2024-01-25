@@ -1,8 +1,12 @@
 import "./teamabout.css";
-import Teamone from "./assets/TeamOne.png";
-import Devimg from "./assets/devimg.png"
 import MemeLogo from "./assets/memelogo.png"
-import DevBack from "./assets/devteam.png"
+import CEO from "./assets/CEO.png"
+import COO from "./assets/COO.png"
+import CTO from "./assets/CTO.png"
+import CMO from "./assets/CMO.png"
+import Dev1 from "./assets/SmartContract.png"
+import Dev2 from "./assets/UIUX.png"
+import Dev3 from "./assets/Cuybercen.png"
 
 
 const TeamAbout = () => {
@@ -20,7 +24,7 @@ const TeamAbout = () => {
                 <div className="image-text">
                   <img
                     className="team-one-img"
-                    src={Teamone}
+                    src={CEO}
                     alt="team guy one"
                   />
                   <div className="text-box">
@@ -37,7 +41,7 @@ const TeamAbout = () => {
                 <div className="image-text">
                   <img
                     className="team-one-img"
-                    src={Teamone}
+                    src={COO}
                     alt="team guy one"
                   />
                   <div className="text-box">
@@ -54,7 +58,7 @@ const TeamAbout = () => {
                 <div className="image-text">
                   <img
                     className="team-one-img"
-                    src={Teamone}
+                    src={CTO}
                     alt="team guy one"
                   />
                   <div className="text-box">
@@ -71,7 +75,7 @@ const TeamAbout = () => {
                 <div className="image-text">
                   <img
                     className="team-one-img"
-                    src={Teamone}
+                    src={CMO}
                     alt="team guy one"
                   />
                   <div className="text-box">
@@ -93,7 +97,7 @@ const TeamAbout = () => {
                 <div className="team-box-1">
                     <div className="box-team-one-all">
                         <div className="box-dev-img">
-                            <img src={Devimg} alt="dev guy one" />
+                            <img src={Dev1} alt="dev guy one" />
                         </div>
                         <div className="box-dev-text"> 
                             <h1>Smart Contract Sorcerer</h1>
@@ -104,7 +108,7 @@ const TeamAbout = () => {
                 <div className="team-box-1">
                     <div className="box-team-one-all">
                         <div className="box-dev-img">
-                            <img src={Devimg} alt="dev guy one" />
+                            <img src={Dev2} alt="dev guy one" />
                         </div>
                         <div className="box-dev-text"> 
                             <h1>UX Alchemist</h1>
@@ -115,7 +119,7 @@ const TeamAbout = () => {
                 <div className="team-box-1">
                     <div className="box-team-one-all">
                         <div className="box-dev-img">
-                            <img src={Devimg} alt="dev guy one" />
+                            <img src={Dev3} alt="dev guy one" />
                         </div>
                         <div className="box-dev-text"> 
                             <h1>CyberSentinel</h1>

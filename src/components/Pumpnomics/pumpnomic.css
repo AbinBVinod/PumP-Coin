@@ -318,7 +318,9 @@ flex-shrink: 0;
     height: 15px;
   }
   .info-box {
-    width: auto;
-    height: auto;
+    height: 96px;
+    width: 64px;
+    padding: 4px;
+    font-size: 9px;
   }
 }

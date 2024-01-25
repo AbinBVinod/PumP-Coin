@@ -272,3 +272,35 @@
   width: 60px;
   height: 55px;
 }
+
+
+@media (min-width: 769px) and (max-width: 1273px) {
+}
+
+@media (max-width: 768px) {
+  .Team-all-heading h1{
+    font-size: 32px;
+  }
+  .Team-all-heading img {
+    width: 36px;
+    height: 29px;
+  }
+  .Team-table-one{
+    width: 328px;
+height: 525px;
+flex-direction: column;
+gap: 12px;
+  }
+  .Team-table-data {
+    margin-left: 19px;
+  }
+  .team-dev-box {
+    width: 328px;
+    height: 347px;
+   
+  }
+  .team-box-1-all {
+    flex-direction: column;
+    gap: 0px;
+}
+}
