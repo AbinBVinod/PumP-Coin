@@ -4,23 +4,30 @@
 
 .hero-background-image {
   position: absolute;
-  width: 1544px; 
+  width: 1544px;
   height: 888px;
   z-index: -1;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.50) 1.5%, rgba(0, 0, 0, 0.00) 98.5%), 
-              linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%),
-              inherit;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.5) 1.5%,
+      rgba(0, 0, 0, 0) 98.5%
+    ),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+    inherit;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-  
+.hero-main-image {
+  background: rgb(0, 0, 0) -47.908px 0px / 119.08% 100%;
+
+  mix-blend-mode: screen;
+}
 
 .hero-section-container {
-  position: relative;
   display: flex;
   gap: 117px;
   justify-content: center;
@@ -83,14 +90,13 @@
 
 .pump-title-hero img {
   width: 87px;
-height: 83px;
-flex-shrink: 0;
+  height: 83px;
+  flex-shrink: 0;
 }
 
 .telegram-social img {
   width: 70px;
-height: 70px;
-
+  height: 70px;
 }
 
 .twitter-social img {
@@ -102,4 +108,76 @@ height: 70px;
   display: flex;
   padding-top: 28px;
   gap: 25px;
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1273px) {
+   .hero-main-image {
+    display: none;
+   }
+   .hero-secton-data {
+    margin-left: 177px;
+   }
+   .pump-title-hero {
+    font-size: 115.194px;
+   }
+}
+
+
+@media (max-width: 768px)  {
+  .hero-section-container img{
+    width: 243px;
+    height: 289px;
+  }
+  .hero-secton-data {
+
+   }
+   .pump-title-hero {
+    font-size: 62px;
+   }
+   .pump-title-hero img {
+    width: 42px;
+    height: 36px;
+}
+.hero-meme-container {
+  position: absolute;
+}
+.hero-secton-data p {
+  width: 214.286px;
+  font-size: 24px;
+}
+.hero-background-image {
+  width: 1116.267px;
+  height: 704px;
+  transform: translate(-62%, -55%);
+  left: 0%;
+}
+
+.hero-section-container {
+  flex-direction: column;
+  margin-top: 0px;
+  gap: 0px;
+  align-items: center;
+  margin-left: 56px;
+}
+.hero-secton-data button {
+  width: 100px;
+  height: 29.054px;
+  border-radius: 5.405px;
+  background: #AEE034;
+}
+.buy-now-hero h4 {
+  font-size: 14px;
+  margin-left: 9px;
+}
+.telegram-social img {
+  width: 47.939px;
+  height: 47.939px;
+ 
+}
+.twitter-social img {
+  width: 47.939px;
+  height: 47.939px;
+}
 }

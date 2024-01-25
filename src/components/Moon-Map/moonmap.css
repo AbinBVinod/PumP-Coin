@@ -15,6 +15,9 @@
   line-height: normal;
   width: 565px;
 }
+.moon-map-heading img {
+  transform: translate(-400px, 141px);
+}
 
 .moon-image {
   display: flex;
@@ -198,4 +201,101 @@
   font-weight: 400;
   line-height: normal;
   margin-top: -29px;
+}
+
+@media (min-width: 769px) and (max-width: 1273px) {
+}
+
+@media (max-width: 768px) {
+  .moon-map-heading img {
+    display: none;
+  }
+  .moon-map-heading h1 {
+    font-size: 32px;
+  }
+  .phase-one-table {
+    width: 253px;
+height: 335px;
+flex-shrink: 0;
+  }
+  .all-phase {
+    gap: 20px;
+  }
+  .phase-one {
+    gap: 0px;
+  }
+  .phase-one h2 {
+    font-size: 16px;
+    transform: rotate(-90deg);
+  }
+  .rockphase1 img {
+    width: 34px;
+height: 31px;
+  }
+  .line-border {
+    width: 1px;
+height: 1413px;
+transform: translate(18px, -30px);
+  }
+  .table-heading h1 {
+    margin-left: -32px;
+    font-size: 16px;
+    width: 207px;
+    margin-top: -12px;
+  }
+  .phase-discription h5 {
+    font-size: 10px;
+    height: 20px;
+  }
+  .phase-discription {
+    width: 228px;
+    margin-left: 13px;
+    margin-top: -21px;
+  }
+  .phase-discription-two h5 {
+    font-size: 10px;
+    height: 20px;
+    margin-top: 0px;
+  }
+  .phase-discription-two {
+    width: 228px;
+    margin-left: 13px;
+
+    margin-top: 6px; 
+  }
+  .phase-discription-three h5 {
+    font-size: 10px;
+    height: 20px;
+    margin-top: 0px;
+  }
+  .phase-discription-three {
+    width: 228px;
+    margin-left: 13px;
+
+    margin-top: 6px; 
+  }
+  .table-heading-four h6 {
+    font-size: 16px;
+    transform: translate(-12px ,-31px);
+    color: var(--Cards, #FFF);
+  }
+  .table-heading-four img {
+    transform: translate(-13px, -41px);
+  }
+  .phase-four h2 {
+    font-size: 16px;
+    transform: rotate(-90deg);
+    margin-left: 27px;
+    width: 59px;
+  }
+  .phase-four {
+    gap: 0px;
+    margin-top: 318px;
+    margin-left: -31px;
+  }
+  .phase-four-table {
+    width: 253px;
+height: 81px;
+
+  }
 }

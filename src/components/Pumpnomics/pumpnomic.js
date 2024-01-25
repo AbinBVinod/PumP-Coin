@@ -25,11 +25,11 @@ const PumpNomic = () => {
              
             
             </div>
-             
+            <div className="the-border-token-img"></div>
             <div className="token-details">
               <div className="heading-for-nomic-box">
                 <div className="data-text">
-                  Total Allocation
+                  <h3>Total Allocation</h3>
                   <span>
                     <h1>100%</h1>{" "}
                   </span>{" "}

@@ -81,3 +81,69 @@ height: 65px;
 .about-us-contant h3 {
   width: 483px;
 }
+
+
+
+@media (min-width: 769px) and (max-width: 1273px) {
+
+}
+
+@media (max-width: 768px) {
+  .about-us-container {
+    margin-top: 200px;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .image-for-tale {
+    width: 373px;
+    height: 186px;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+  .image-for-tale img {
+    width: 328px;
+height: 183.174px;
+
+  }
+  .about-us-contant {
+    margin-left: 0px;
+    margin-top: 464px;
+  }
+  .about-us-contant h4 {
+    margin-left: -278px;
+  font-size: 20px;
+  }
+  .sapcerockimg {
+    display: none;
+  }
+  .about-us-contant h1 {
+    font-size: 32px;
+    margin-top: 49px;
+    margin-left: -16px;
+  }
+  .about-us-contant img {
+    width: 52px;
+    height: 48px;
+    margin-left: 18px;
+    margin-top: -5px;
+}
+.about-us-contant p {
+  margin-top: 23px;
+  font-size: 16px;
+  width: 305px;
+  margin-left: 51px;
+}
+.about-us-contant span {
+  color: #AEE034;
+font-family: "Irish Grover";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.about-us-contant h3 {
+  font-size: 16px;
+  width: 308px;
+  margin-left: 53px;
+}
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import './heromem.css';
-import HeroMain from "./assets/hero-img.png";
+import HeroMain from "./assets/hero-img.svg";
 import Background from "./assets/heropagebackgound.png"; 
 import Logo from "./assets/memelogo.png"
 import Telegram from "./assets/telegram.svg"
@@ -12,6 +12,7 @@ const HeroMeme = () => {
             <img src={Background} className="hero-background-image" alt="background" />
             <div className="hero-section-container">
                 <img src={HeroMain}  alt="hero-image" className="hero-main-image" />  
+                
                 <div className="hero-secton-data"> 
                     <div className="pump-title-hero">Pump C<img src={Logo} alt='logo'/>in</div>
                     <p>It's not just a coin, it's a revolution</p>

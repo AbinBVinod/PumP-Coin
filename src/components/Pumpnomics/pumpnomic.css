@@ -12,19 +12,14 @@
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal; 
-  
+  line-height: normal;
 }
-
 
 .pumpnomic-heading img {
   width: 135.333px;
-height: 125.35px;
-transform: translate(410px, 50px);
-
+  height: 125.35px;
+  transform: translate(410px, 50px);
 }
-
-
 
 .pumpnomic-heading h1 {
   color: #fff;
@@ -38,14 +33,13 @@ transform: translate(410px, 50px);
 
 .the-svg-img img {
   width: 455px;
-height: 456px;
+  height: 456px;
 }
 .the-svg-img {
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 
 .token-mi-aligh {
   display: flex;
@@ -212,5 +206,119 @@ align-items: center;
   opacity: 1;
   visibility: visible;
 }
+.the-border-token-img {
+  width: 3px;
+  height: 698px;
+  background: linear-gradient(
+    290deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(125, 125, 125, 0.15) 0%,
+    #7d7d7d 53.87%,
+    rgba(125, 125, 125, 0.15) 100%
+  );
+}
 
+@media (min-width: 769px) and (max-width: 1273px) {
+}
 
+@media (max-width: 768px) {
+  .pumpnomic-heading img {
+    display: none;
+  }
+  .pumpnomic-heading h1 {
+    font-size: 32px;
+  }
+  .token-mi-aligh {
+    flex-direction: column;
+  }
+  .the-svg-img img {
+    width: 232.36px;
+    height: 232.871px;
+  }
+  .the-border-token-img {
+    width: 264px;
+    height: 1px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    display: flex;
+    margin-left: 90px;
+  }
+  .heading-for-nomic-box {
+    width: 328px;
+    height: 91px;
+    flex-flow: column;
+  }
+  .token-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .data-text {
+    gap: 120px;
+  }
+  .data-text h3 {
+    color: #777;
+    font-family: "Irish Grover";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .data-text span {
+    width: 57px;
+    height: 25.055px;
+
+    margin-top: 34px;
+  }
+  .data-text h1 {
+    font-size: 14px;
+    margin-left: 16px;
+  }
+
+  .data-numbers {
+    font-size: 20px;
+    transform: translate(17px, -17px);
+  }
+  .Border-line-data {
+    align-items: center;
+  }
+  .cex-and-dex  {
+    flex-direction: column;
+  }
+  .both-data-info {
+    margin-left: -109px;
+    margin-top: 20px;
+  }
+  .data-in-aligh img {
+    width: 24px;
+height: 24px;
+
+  }
+  .the-border-nomic {
+    width: 264px;
+height: 0.8px;
+  }
+  .data-text-cex {
+    font-size: 16px;
+  }
+  .data-in-box {
+    width: 56.948px;
+height: 25.032px;
+flex-shrink: 0;
+  }
+  .data-in-box h1 {
+    font-size: 14px;
+  }
+  .data-numbers-all {
+    font-size: 20px;
+  }
+  .infobox-hover img {
+    width: 15px;
+    height: 15px;
+  }
+  .info-box {
+    width: auto;
+    height: auto;
+  }
+}

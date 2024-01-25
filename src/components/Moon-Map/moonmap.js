@@ -1,5 +1,5 @@
 import "./moonmap.css";
-import MoonRock from "./assets/moonrock.svg";
+import MoonRock from "./assets/moonrock.png";
 import Rockphase from "./assets/rockphase.png";
 import ArrorPhase from "./assets/polygon.svg";
 
@@ -9,9 +9,9 @@ const MoonMap = () => {
       <div>
         <div className="moon-map-container">
           <div className="moon-map-heading">
+            <img src={MoonRock} alt="moon-rock" />
             <h1>Roadmap</h1>
           </div>
-          {/* <div className="moon-image"> <img src={MoonRock} alt="moon-map-image 1"/></div> */}
           <div className="all-phase-table">
           <div className="all-phase">
             

@@ -178,5 +178,21 @@
   justify-content: center;
 }
 
+@media (min-width: 769px) and (max-width: 1273px) {
+}
+
+@media (max-width: 768px) {
+  .pump-info-heading h1 {
+    font-size: 32px;
+  }
+  .pump-box-one-all {
+    flex-direction: column;
+    align-items: center;
+  }
+  .down-bento-box-pump {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 
